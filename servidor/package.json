@@ -1,0 +1,20 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "servidor pelivspeli",
+  "main": "servidor.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ivana \u001b[D\u001b[D\u001b[D\u001b[D\u001b[I\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CLeila Di Biase",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
