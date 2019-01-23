@@ -68,7 +68,7 @@ function getOpciones(req,res) {
     const sql = `INSERT INTO competencias.votos (pregunta_id, pelicula_id) VALUES (${idCompetencia}, ${idPelicula});`;
     conn.query(sql, (err, result) => {
         if (err) return res.status(500).send('ERROR');
-        // res.status(200).send('OK');
+        // res .status(200).send('OK');
         // Tengo que retornar JSON porque sino, el front no redirige
         res.json({ status: 'OK'});
     });
