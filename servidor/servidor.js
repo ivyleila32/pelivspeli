@@ -22,6 +22,20 @@ app.listen(puerto, function () {
 });
 
 app.get('/competencias', controlador.getCompetencia);
+app.post('/competencias', controlador.crearCompetencia);
 app.get('/competencias/:id/peliculas', controlador.getOpciones);
 app.post('/competencias/:id/voto', controlador.votar);
 app.get('/competencias/:id/resultados', controlador.getResultados);
+app.delete('/competencias/:id/votos', controlador.reiniciar);
+app.get('/generos', controlador.getGenero);
+app.get('/directores', controlador.getDirector);
+app.get('/actores', controlador.getActor);
+app.get('/competencias/:id', controlador.getCompetenciaById);
+app.delete('/competencias/:id', controlador.borrarCompetencia);
+app.put('/competencias/:id',controlador.editarCompetencia);
+
+
+
+
+
+
