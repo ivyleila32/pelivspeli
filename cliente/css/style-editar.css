@@ -44,6 +44,13 @@ form input[type="text"]:focus, form select:focus {
 	border-color: rgba(255, 255, 255, 0.8);
 }
 
+/* FIX option del select */
+
+select option {
+	background-color: #2D3E52;
+}
+
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 480px) {

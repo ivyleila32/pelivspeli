@@ -33,9 +33,3 @@ app.get('/actores', controlador.getActor);
 app.get('/competencias/:id', controlador.getCompetenciaById);
 app.delete('/competencias/:id', controlador.borrarCompetencia);
 app.put('/competencias/:id',controlador.editarCompetencia);
-
-
-
-
-
-

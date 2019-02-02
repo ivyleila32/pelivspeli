@@ -173,7 +173,7 @@ function borrarCompetencia(req,res) {
     const idCompetencia = req.params.id;
     const sql1 = `SELECT pregunta from pregunta where id = ${idCompetencia}`;
     const sql2 = `DELETE from pregunta where id = ${idCompetencia}`;
-    console.log(sql2);
+    console.log(sql1, sql2);
     conn.query(sql1, (err, valoring) => {
         if (err) return res.status(500).send('ERROR');
         // res.status(200).send('OK');
